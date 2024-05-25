@@ -1,4 +1,6 @@
-class MainDepartment extends Department {
+package Departamentos;
+
+public class MainDepartment extends Department {
     private String name;
 
     public MainDepartment(String name) {

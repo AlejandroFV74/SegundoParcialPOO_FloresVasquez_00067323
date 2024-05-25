@@ -1,7 +1,11 @@
+package Departamentos;
+
+import Interfaz.Employee;
+
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class Department implements Employee {
+public abstract class Department implements Employee {
     private List<Employee> employees = new ArrayList<>();
 
     public void addEmployee(Employee employee) {

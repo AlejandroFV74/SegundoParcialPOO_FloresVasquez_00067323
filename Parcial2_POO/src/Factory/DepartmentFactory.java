@@ -1,4 +1,10 @@
-class DepartmentFactory {
+package Factory;
+
+import Departamentos.Department;
+import Departamentos.MainDepartment;
+import Departamentos.SecondaryDepartment;
+
+public class DepartmentFactory {
     public static Department createMainDepartment(String name) {
         return new MainDepartment(name);
     }

@@ -1,4 +1,8 @@
-class SecondaryDepartment extends Department {
+package Departamentos;
+
+import Departamentos.Department;
+
+public class SecondaryDepartment extends Department {
     private String name;
 
     public SecondaryDepartment(String name) {

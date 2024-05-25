@@ -1,4 +1,8 @@
-class EmployeeImpl implements Employee {
+package Empleado;
+
+import Interfaz.Employee;
+
+public class EmployeeImpl implements Employee {
     private String name;
 
     public EmployeeImpl(String name) {
